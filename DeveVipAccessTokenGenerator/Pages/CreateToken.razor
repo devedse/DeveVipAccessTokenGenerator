@@ -1,0 +1,32 @@
+﻿@page "/createtoken"
+
+<h1>Create Token</h1>
+
+<p>Enter your secret</p> 
+<input type="text" @bind-value="@secret" />
+
+<button class="btn btn-primary" @onclick="GenerateToken">Generate token</button>
+
+<br><br><br><br>
+<p>Current token:</p>
+<p>@token</p>
+
+
+@code {
+    string secret { get; set; }
+    string token { get; set; } = "<none>";
+
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    _ = Task.Run(async ()=>
+    //    {
+    //        token += "a";
+    //        await Task.Delay(1000);
+    //    });
+    //}
+
+    void GenerateToken()
+    {
+        token = DeveVipAccess.VipAccess.CreateCurrentTotpKey(secret);
+    }
+}
