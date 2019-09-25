@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveVipAccessTokenGenerator", "DeveVipAccessTokenGenerator\DeveVipAccessTokenGenerator.csproj", "{3131F3B2-FAE7-4913-815D-F6BF2E864ACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveVipAccessTokenGenerator.WebApp", "DeveVipAccessTokenGenerator.WebApp\DeveVipAccessTokenGenerator.WebApp.csproj", "{3131F3B2-FAE7-4913-815D-F6BF2E864ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
