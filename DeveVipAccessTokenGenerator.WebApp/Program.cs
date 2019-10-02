@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace DeveVipAccessTokenGenerator
+namespace DeveVipAccessTokenGenerator.WebApp
 {
     public class Program
     {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DeveVipAccessTokenGenerator
+namespace DeveVipAccessTokenGenerator.WebApp
 {
     public class Startup
     {
